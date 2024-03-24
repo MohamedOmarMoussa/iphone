@@ -3,6 +3,7 @@ import Highlights from "./components/Highlights"
 import Model from "./components/Model"
 import Navbar from "./components/Navbar"
 import Features from './components/Features';
+import HowItWorks from './components/HowItWorks';
 
 import * as Sentry from "@sentry/react";
 
@@ -15,6 +16,7 @@ const App = () => {
       <Highlights />
       <Model />
       <Features />
+      <HowItWorks />
     </main>
   )
 }
